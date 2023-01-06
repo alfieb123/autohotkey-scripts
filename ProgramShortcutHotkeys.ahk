@@ -6,4 +6,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; #w::Run MicrosoftEdge.exe ; win W open broswer
 #w::Run firefox.exe ; win W open broswer
 #t::Run wt.exe ; win T run windows terminal
+;#e::Run explorer.exe ; win e run file browser, note!: this is commented because its already windows native!
 #q::Send !{F4} ; win shift q send alt f4 which closes current program
+
